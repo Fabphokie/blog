@@ -10,6 +10,7 @@ function Hero () {
               alt="An image showing Phokie " 
               width={300}
               height={300}
+              priority={true}
             />
         </div>
         <h1>Hi, I'm Mmaphokeng</h1>
