@@ -1,5 +1,6 @@
 import classes from './hero.module.css'
 import Image from 'next/image';
+import { MdExpandMore } from "react-icons/md";
 
 function Hero () {
   return (
@@ -13,11 +14,14 @@ function Hero () {
               priority={true}
             />
         </div>
-        <h1>Hi, I'm Mmaphokeng Senne</h1>
+        <h1>Hi, Welcome to my Blog</h1>
         <p>
-            Welcome to My Blog - I blog about web development - especially frontend frameworks like 
-            Angular or React.
+             My name is Mmaphokeng Senne
+             <br/>
+             <MdExpandMore />
         </p>
+        
+
     </section>
   );
 }
